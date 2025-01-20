@@ -1,0 +1,14 @@
+// value type variabe 
+
+int x;
+x = 10;
+// pointer type variable
+
+int *p;
+p = &x;
+
+printf("%d",*p); // 10
+printf("%d",p); // 112233
+
+// refrence variabe
+int &y = x;

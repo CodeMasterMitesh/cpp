@@ -1,0 +1,12 @@
+What is a Friend Function?
+A function that is not a member of a class but has access to the private and protected members of the class.
+Declared using the keyword friend inside the class definition.
+Defined like a normal function outside the class.
+Helps in implementing non-member functions that still need access to the class's internals.
+
+
+Key Characteristics
+Not a Member: A friend function is not called with a class object; it’s called like a regular function.
+Access to Private Members: It can access all private and protected members of the class.
+Defined Outside the Class: After declaration inside the class, it must be implemented externally.
+Declared Explicitly: Explicitly marked as friend inside the class.
