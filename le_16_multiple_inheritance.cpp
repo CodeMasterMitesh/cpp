@@ -3,6 +3,7 @@ using namespace std;
 // types of inheritance
 // 2 Multiple inheritance
 
+//1 parent class 
 class Vehicle{
     public:
     Vehicle()
@@ -10,14 +11,17 @@ class Vehicle{
         cout<<"This is Vehicle class Constructor\n";
     }
 };
-class Horn : public Vehicle{
+//2 parent class 
+class Horn 
+{
     public:
     Horn()
     {
      cout<<"This is Horn class Constructor\n";   
     }
 };
-class Bus : public Vehicle{
+class Bus : public Vehicle, public Horn
+{
     public:
     Bus()
     {
