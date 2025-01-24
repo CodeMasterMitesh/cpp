@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-// method overridding,method hideing,method overloading
+// virtual function
 class Car{
     int brk,spd,gear;
 
