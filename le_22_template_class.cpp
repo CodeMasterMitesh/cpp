@@ -22,7 +22,7 @@ int main(){
     Example <string> e3;
     e1.setData(10, 20);
     e1.showData();
-    e2.setData(10.5f, 20.5f);
+    e2.setData(10.5, 20.5);
     e2.showData();
     e3.setData("James ", "Bond");
     e3.showData();
