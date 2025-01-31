@@ -1,0 +1,9 @@
+A vector in C++ is a dynamic array provided by the Standard Template Library (STL) 
+that can grow and shrink in size automatically. 
+It provides fast random access (like an array) and efficient insertion/deletion at the end
+
+Key Features of Vectors:
+Dynamic size: No need to specify the size in advance.
+Contiguous memory storage: Like arrays, vectors store elements in a continuous block of memory.
+Fast element access: Supports indexing (v[i]).
+Built-in functions: push_back(), pop_back(), size(), clear(), etc.
